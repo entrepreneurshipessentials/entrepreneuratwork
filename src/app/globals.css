@@ -3,7 +3,7 @@
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
-@plugin "@tailwindcss/typography";
+@plugin "../../node_modules/@tailwindcss/typography";
 
 /* ── Brand tokens ──────────────────────────────────────────── */
 :root {
